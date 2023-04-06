@@ -1,0 +1,108 @@
+.head{    
+    height: 20px;
+    background-color: grey;
+    position: sticky;
+    top: 0px;
+}
+.text{
+    font-weight: bolder;
+    border-bottom: dotted;
+    padding: 20px 0px 0px 400px;
+}
+
+.head-1,ul{
+    background-color: lightgrey;
+    display: flex;
+    padding-left: 250px;
+}
+.logo{
+    padding-top: 20px;
+    height: 30px;
+}
+
+li{
+    text-align: center;
+    padding: 10px 50px 20px;
+}
+
+.home{
+    color: darkmagenta;
+}
+
+.bg-home{
+    height: 700px;
+    width: 500px;
+    margin-top: 50px;
+    padding-left: 200px;
+    position: relative;
+}
+
+.bg-home-2{
+    height: 300px;
+    width: 300px;
+    padding: 60px 0px 0px 20px;
+    font-weight: bolder;
+    color: white;
+
+    background-image: url("./images/icons.png");
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 440px;
+    left: 950px;
+}
+.foot-1{
+    height: 250px;
+    background-color: lightgrey;
+    display: flex;
+    position: relative;
+}
+.foot-1-1{
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 50px;
+}
+.foot-1-1,.foot-1-3,.foot-1-4,.foot-1-5{
+    color: brown;
+}
+.foot-1-3,.foot-1-4,.foot-1-5{
+    padding-top: 5px;
+}
+.foot-1-1,.foot-1-2,.foot-1-3,.foot-1-4,.foot-1-5{
+    padding-left: 250px;
+}
+
+.foot-1-2{
+    color: #E32A62;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.foot-1-3{
+    padding-top: 20px;
+}
+
+.foot-1-img{
+    height: 250px;
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+}
+
+.foot-2{
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+table{
+    padding-top: 50px;
+}
+
+.foot-3{
+    height: 300px;
+    background-color: #E32A62;
+}
+th{
+    color: white;
+}
