@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+}
+nav{
+    /* margin: -50px 0px 0px 0px; */
+    /* position: fixed; */
+    width: 100%;
+}
+.nav{
+    display: flex;
+    height: 90px;
+    width: 99%;
+    background-color: #128C7E;
+}
+.nav .logo img{
+    margin: 25px 0px 0px 230px;
+    height: 36px;
+}
+.nav .navtext ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 0px 0px 90px;
+}
+.nav .navtext li{
+    list-style-type: none;
+    padding-right: 50px;
+}
+.nav .navtext a{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.imgs1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 860px;
+    width: 94%;
+    margin: 0px 40px 0px 40px;
+    background-color: white;
+}
+.imgs1 .text1{
+    height: 910px;
+    font-family: sans-serif;
+    width: 50%;
+    text-align: center;
+    background-color: #E7F0E4;
+}
+.imgs1 .text1 .phone h1{
+    
+    margin: 170px 0px 0px 0px;
+    font-weight: 100;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.imgs1 .text1  img{
+    margin: 50px 0px 0px 0px;
+    height: 350px;
+    padding: 0px 80px 0px 80px;
+}
+.imgs1 .text1 .btn{
+    margin: 30px 0px 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgs1 .text1 button{
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #128C7E;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+}
+.imgs1 .text1 .btn2{
+    margin-left: 120px;
+}
+.imgs1 .text1 .Visit h1{
+    margin: 50px 150px 0px 150px;
+    line-height: 30px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.imgs1 .text1 .Visit p{
+    margin: 30px 0px 0px 0px;
+    color: rgb(63, 63, 63);
+}
+.imgs1 .text1 .Visit a{
+    text-decoration: none;
+    color: #1db8e7;
+}
+.imgs1 .text2{
+    margin: 0px 0px 0px 30px;
+    height: 910px;
+    font-family: sans-serif;
+    width: 50%;
+    text-align: center;
+    background-color: #FCF2C6;
+    
+}
+.text2 h1{
+    margin: 170px 0px 0px 0px;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.text2 .mac img{
+    margin: 90px 0px 0px 0px;
+    height: 250px;
+}
+.text2 .mac p{
+    padding: 30px 90px 0px 90px;
+    color: gray;
+    line-height: 40px;
+
+}
+.text2 .mac .a{
+    padding: 30px 70px 0px 70px;
+    text-decoration: none;
+    color: #1db8e7;
+}
+.text2 .mac a{
+    text-decoration: none;
+    color: #1db8e7;
+}
+.text2 .mac .img2-1 img{
+    margin: 30px 0px 0px 0px;
+    height: 50px;
+}
