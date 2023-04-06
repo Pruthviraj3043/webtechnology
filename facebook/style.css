@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    
+}
+.body{
+    border: solid 1px #F0F2F5;
+    height: 720px;
+    background-color: #F0F2F5;
+}
+.logo{
+    margin: 180px 0px 0px 230px;
+}
+.logo img{
+    height: 110px;
+    
+}
+.logo h2{
+    margin: -10px 0px 0px 30px;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: sans-serif;
+    word-spacing: 1px;
+}
+.main2{
+    margin: -220px 280px 0px 0px;
+    border: solid 1px gainsboro;
+    height: 350px;
+    width: 400px;
+    float: right;
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(128, 128, 128);
+    
+}
+
+.main2 .email input{
+    margin: 20px 20px 0px 20px;
+    height: 50px;
+    width: 355px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px gainsboro;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.main2 .emailtext{
+    margin: 1px 0px 0px 20px;
+}
+.main2 .password input{
+    margin: 10px 20px 0px 20px;
+    height: 50px;
+    width: 355px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px gainsboro;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.main2 .passwordtext{
+    margin: 1px 0px 0px 20px;
+}
+.main2 .login input{
+    margin: 10px 20px 0px 20px;
+    height: 50px;
+    width: 365px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #1670e5dc;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.login input:hover{
+    background-color: #1f76e8;
+}
+.main2 .forgotten a{
+    margin: 10px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #166FE5;
+}
+.forgotten a:hover{
+    text-decoration: underline;
+}
+.main2 .border{
+    margin: 10px 20px 0px 20px;
+    border-bottom: solid 1px gainsboro;
+}
+.main2 .account button{
+    margin: 25px 100px 0px 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #36A420;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.account input:hover{
+    background-color: #288216;
+}
+.main2 .para{
+    margin: 60px 0px 0px 50px;
+}
+.footer{
+    margin: 30px 0px 0px 270px;
+}
+.footer a{
+    font-family: sans-serif;
+    
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer .border1{
+    margin: 10px 280px 0px 0px;
+    border-bottom: solid 1px gainsboro;
+}
+.a2{
+    margin: 20px 300px 0px 0px;
+}
+.a2 a{
+    
+    padding-left: 7px;
+}

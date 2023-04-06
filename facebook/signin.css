@@ -1,0 +1,153 @@
+*{
+    
+    margin: 0%;
+}
+.image img{
+    width: 100%;
+    position: absolute;
+    opacity: 0.3;
+}
+input{
+    border: solid 1px gray;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.signup{
+    border: solid 1px white;
+    height: 590px;
+    width: 420px;
+    /* margin: 50px 500px 0px 520px; */
+    top: 100px;
+    left: 500px;
+    background-color: #FCFCFD;
+    box-shadow: 0px 0px 10px gainsboro;
+    position: relative;
+}
+.signup .text1{
+    margin: 5px 0px 0px 20px;
+    font-family: sans-serif;
+    display: flex;
+}
+.signup .text1 img{
+    margin: 15px 0px 0px 230px;
+}
+.signup .text1 h1{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.signup .text1 p{
+    margin: 0px 0px 0px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    
+}
+.signup .border{
+    border-bottom: solid 1px gray;
+    margin: 15px 0px 0px 0px;
+}
+.signup .names{
+    margin: 15px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.signup .names input{
+    width: 170px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.signup .signupemail input{
+    margin: 10px 20px 0px 20px;
+    width: 370px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.signup .signuppassword input{
+    margin: 10px 20px 0px 20px;
+    width: 370px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px gainsboro;
+}
+
+.dob{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.date{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+select{
+    margin: 5px 0px 0px 0px;
+    width: 120px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px gainsboro;
+    
+}
+.Gender{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px 0px 0px;
+}
+.Gender span{
+    border: solid 1px gray;
+    width: 120px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px gainsboro;
+}
+.People p{
+    margin: 15px 30px 0px 20px;
+    font-size: 11px;
+    font-family: sans-serif;
+    color: gray;
+}
+.People a{
+    text-decoration: none;
+    color: blue;
+}
+.submit{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.submit input{
+    width: 180px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #42B72A;
+    cursor: pointer;
+}
+
+
