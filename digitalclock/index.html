@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digial-Clock</title>
+    <style>
+        @media screen{
+        body{
+            background: linear-gradient(blue,black,yellow);
+            
+        }
+} 
+.container{
+    background: radial-gradient(red,yellow,white);
+    box-shadow: 0px 0px 15px #505050;
+    border-radius: 20px;
+    width: 330px;
+    height: 370px;
+    margin: 70px 550px;
+    
+}
+h1{
+    
+    margin-top: 100px;
+    text-align: center;
+    font-family: sans-serif
+    ;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-decoration-line: underline;
+    text-shadow: 2px 3px 0px white;
+}
+.box-1{
+    border: solid 5px gray;
+    box-shadow:inset 0px 0px 10px black;
+    border-radius: 50%;
+        text-align: center;
+        font-size: 45px;
+        margin-top: -15px;
+}
+.box-1 span{
+    padding: 10px;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text-1{
+    
+    padding: 2px 30px;
+}
+.text-1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.box-2{
+    border: solid 5px gray;
+    box-shadow:inset 0px 0px 10px black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -15px;
+}
+.box-2 span{
+    padding: 10px;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.box-3{
+    border: solid 5px gray;
+    box-shadow:inset 0px 0px 10px black;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -15px;
+}
+.box-3 span{
+    padding: 10px;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: bold;
+}
+    </style>
+
+    <script>
+        function digitalClock()
+{
+     let dateobj = new Date()
+
+     let dateHrs = dateobj.getHours()
+    let dateMnis = dateobj.getMinutes()
+    let dateSec = dateobj.getSeconds()
+
+    let dateday = dateobj.getDay()
+    let dateMonth = dateobj.getMonth()
+    let dateYear = dateobj.getFullYear()
+
+     let selectElmt = document.getElementsByTagName('span')
+     selectElmt[0].innerText = dateHrs
+     selectElmt[1].innerText = dateMnis
+     selectElmt[2].innerText = dateSec
+     selectElmt[3].innerText = dateday
+     selectElmt[4].innerText = dateMonth
+     selectElmt[5].innerText = dateYear
+
+     let curday = dateobj.getDay()
+
+     switch(curday)
+     {
+        case 6 : "thursday"
+        break;
+     }
+     selectElmt[6].innerText = curday
+}
+    </script>
+</head>
+<body onload=" setInterval(digitalClock,1000)">
+
+        <h1>Digital Clock</h1>
+
+       <div class="container">
+            <div class="text-1">
+                <p>Time :</p>
+            </div>
+                <div class="box-1">
+                    <span>00 </span> :
+                    <span> 00 </span> :
+                    <span> 00</span>
+                </div>
+            <div class="text-1">
+                <p>Date :</p>
+            </div>
+                <div class="box-2">
+                    <span>00 </span> :
+                    <span>00 </span> :
+                    <span>00</span>
+                </div>
+            <div class="text-1">
+                <p>Day :</p>
+            </div>
+                <div class="box-3">
+                    <span>Default day</span>
+                </div>
+       </div>
+       <script src="./index.js"></script>
+</body>
+</html>
