@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <style>
+    
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #607680;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.field{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.field label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.field input:not(.terms){
+    display: block;
+    border-radius: 4px;
+    border:2px solid #f0f0f0;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+
+.field span{
+    position: absolute;
+    top:30px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.field small{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    visibility: hidden;
+}
+.form .button{
+    background-color: rgb(90, 104, 235);
+    border: 2px solid rgb(90, 104, 235);
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+
+.field.success input{
+    border-color: #2ecc71;
+}
+
+.field.error input{
+    border-color: #e74c3c;
+}
+
+
+.field.success span.success{
+    color: #2ecc71;
+    visibility: visible;
+}
+.field.error span.error{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.field.error span.success{
+    visibility: none;
+  
+}
+
+.field.succes span.error{
+    visibility: none;
+   
+}
+
+.field.error small{
+    visibility: visible;
+    color: #e74c3c;
+  
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Register Here</h1>
+  </div>
+  <form action="index.html" class="form" id="form">
+    <div class="field">
+      <label for="">Username</label>
+      <input type="text" id="uname" placeholder="Username">
+      <span class="material-symbols-outlined success">check_circle</span>
+      <span class="material-symbols-outlined error">error_circle_rounded</span>
+      <small>Please fill the data</small>
+    </div>
+    <div class="field">
+      <label for="">Email</label>
+      <input type="email" id="email" placeholder="example@gmail.com">
+      <span class="material-symbols-outlined success">check_circle</span>
+      <span class="material-symbols-outlined error">error_circle_rounded</span>
+      <small>Please fill the data</small>
+    </div>
+    <div class="field">
+      <label for="">Password</label>
+      <input type="password" id="password" placeholder="Password">
+      <span class="material-symbols-outlined success">check_circle</span>
+      <span class="material-symbols-outlined error">error_circle_rounded</span>
+      <small>Please fill the data</small>
+    </div>
+    <div class="field">
+      <label for="">Confirm Password</label>
+      <input type="password" id="cpassword" placeholder="Confirm Password">
+      <span class="material-symbols-outlined success">check_circle</span>
+      <span class="material-symbols-outlined error">error_circle_rounded</span>
+      <small>Please fill the data</small>
+    </div>
+    <div class="field">
+      
+      <input type="checkbox" id="tc" class="terms">
+      <label for="">I agree to terms and conditions</label>
+      <small>Please fill the data</small>
+    </div>
+    <input type="submit" class="button">
+  </form>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
